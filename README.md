@@ -2,7 +2,7 @@
 # fga-golang-04
 NOTED:
 Tidak bisa deploy kode ke railway-
-Status sudah terhubung ke github, tapi masih limited trial.
+Status sudah terhubung ke github, tapi masih limited trial. Sudah cari alternatif tpi kebanyakan harus memasukkan data kartu kredit sebelum dapat yang free.
 
 Pesan:
 To prevent abuse of free resources, we check GitHub accounts before enabling code deployments on Railway.
@@ -60,3 +60,12 @@ Social Medias
 [Aunthentication & Authorization]    PUT    http://localhost:8080/socialmedias/:id
 
 [Aunthentication & Authorization]    DELETE    http://localhost:8080/socialmedias/:id
+
+
+
+
+
+
+bug/error:
+------------------------------------------------------------------------------------
+-API Users delete tidak bisa menghapus data user yang memiliki relasi(FK) pada tabel lain. Dengan kata lain api hanya menghapus data pada tabel user. Tidak pada tabel lain.
