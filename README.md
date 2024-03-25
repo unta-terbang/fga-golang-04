@@ -18,9 +18,9 @@ Users
 
 [PUBLIC]    PUSH    http://localhost:8080/users/login
 
-[Aunthentication & Authorization]    PUT    http://localhost:8080/users/login
+[Aunthentication & Authorization]    PUT    http://localhost:8080/users
 
-[Aunthentication & Authorization]    DELETE    http://localhost:8080/users/login
+[Aunthentication & Authorization]    DELETE    http://localhost:8080/users
 
 
 Photos
