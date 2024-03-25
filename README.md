@@ -68,4 +68,4 @@ Social Medias
 
 bug/error:
 ------------------------------------------------------------------------------------
--API Users delete tidak bisa menghapus data user yang memiliki relasi(FK) pada tabel lain. Dengan kata lain api hanya menghapus data pada tabel user. Tidak pada tabel lain.
+-API Users delete tidak bisa menghapus data user yang memiliki relasi(FK) dengan tabel lain. Dengan kata lain api hanya menghapus data pada tabel user. Tidak pada tabel lain.
