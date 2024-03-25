@@ -3,6 +3,7 @@
 NOTED:
 Tidak bisa deploy kode ke railway-
 Status sudah terhubung ke github, tapi masih limited trial.
+
 Pesan:
 To prevent abuse of free resources, we check GitHub accounts before enabling code deployments on Railway.
 
